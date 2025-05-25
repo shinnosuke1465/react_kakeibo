@@ -357,7 +357,7 @@ const TransactionForm = ({
           sx={{
             position: "fixed",
             top: 64,
-            right: isEntryDrawerOpen ? formWidth : "-2%", // フォームの位置を調整
+            right: isEntryDrawerOpen ? formWidth : "-3%", // フォームの位置を調整
             width: formWidth,
             height: "100%",
             bgcolor: "background.paper",
