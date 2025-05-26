@@ -157,7 +157,7 @@ const TransactionForm = ({
     });
   };
 
-  //選択肢が更新されたか確認
+  //選択肢が更新されたか確認。
   useEffect(() => {
     if (selectedTransaction) {
       const categoryExists = categories.some(
